@@ -83,6 +83,10 @@
                 <div class="title m-b-md">
                     Hello {{ Auth::user()->name ?? '' }}
                 </div>
+                <div>
+                    {!! "<b>Hello</b>" !!}
+                    {!! "<script>alert('Hello');</script>" !!}
+                </div>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
